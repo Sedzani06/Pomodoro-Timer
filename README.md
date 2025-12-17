@@ -49,7 +49,7 @@ The application is built using HTML, CSS, and JavaScript, and is designed to be 
 ---
 
 ## Screenshot
-![Image](https://github.com/user-attachments/assets/fed46528-769d-45ff-9f80-eab67c8a27c7)
+![Image](https://github.com/Sedzani06/Pomodoro-Timer/blob/4ebae5d5e8b53eec5c9a27e694b9d6f63f4e9e4a/pomodoro%20timer%20pic.jpg)
 
 
 ---
