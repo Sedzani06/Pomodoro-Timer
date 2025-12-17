@@ -1,0 +1,65 @@
+/* Basic styling for the entire page */
+body {
+  font-family: sans-serif; /* Use a simple sans-serif font */
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  margin: 0; /* Remove default body margins */
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the main container */
+.container {
+  background-color: #fff; /* White background for the timer container */
+  padding: 30px; /* Add some padding around the content */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center text within the container */
+}
+
+/* Styling for the timer display (MM: SS) */
+.timer {
+  font-size: 2em; /* Larger font size for the timer */
+  margin-bottom: 20px; /* Add space below the timer */
+}
+
+/* Styling for the progress bar container */
+.progress-bar-container {
+  background-color: #ddd; /* Light gray background for the container */
+  height: 10px; /* Set the height of the progress bar */
+  border-radius: 5px; /* Rounded corners for the progress bar */
+  margin-bottom: 20px; /* Add space below the progress bar */
+  overflow: hidden; /* Hide any overflow from the progress bar */
+}
+
+/* Styling for the actual moving progress bar */
+.progress-bar {
+  background-color: #4CAF50; /* Green color for the progress */
+  height: 100%; /* Make it fill the container height */
+  width: 0%; /* Start with 0% width */
+  border-radius: 5px; /* Match container's rounded corners */
+  transition: width 0.3s ease-in-out; /* Smooth transition for width changes */
+}
+
+/* Styling for the both control buttons */
+.controls button {
+  padding: 10px 20px; /* Add padding to the buttons */
+  margin: 0 10px; /* Add horizontal margin between buttons */
+  font-size: 1em; /* Set button font size */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Specific Style for the Start button */
+#start {
+  background-color: #007bff; /* Blue background for Start button */
+  color: white; /* White text color */
+}
+
+/* Specific Style for the Reset button */
+#reset {
+  background-color: #dc3545; /* Red background for Reset button */
+  color: white; /* White text color */
+}

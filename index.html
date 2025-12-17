@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Makes the site responsive on all screen sizes-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Pomodoro Timer</title>
+
+  <!-- Link to external CSS file for styling-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!--  Label for the current session (work time or break time)-->
+    <h1 id="timer-label">Work Time</h1>
+
+    <!-- Timer display : minutes and seconds-->
+    <div class="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+
+    <!--Progress bar container (filled dynamically with javascript)-->
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
+    </div>
+
+    <!-- Control buttons for starting and resetting the timer-->
+    <div class="controls">
+      <button id="start">Start</button> <button id="reset">Reset</button>
+    </div>
+  </div>
+
+<!-- Link to external javascript file for timer logic-->
+  <script src="main.js"></script>
+</body>
+
+</html>
