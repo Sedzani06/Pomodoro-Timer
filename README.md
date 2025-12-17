@@ -4,7 +4,7 @@
 
 This project is a simple *Pomodoro Timer* built as part of a Digital Design Techniques assignment. The timer follows the Pomodoro technique, which consists of *25-minute work sessions* followed by *5-minute breaks*. It features a minimalistic web interface with a visual progress bar, start and reset buttons, and clear time display.
 
-The application is built using *HTML, **CSS, and **JavaScript*, and is designed to be simple, effective, and easy to use for students.
+The application is built using HTML, CSS, and JavaScript, and is designed to be simple, effective, and easy to use for students.
 
 ---
 
@@ -21,7 +21,7 @@ The application is built using *HTML, **CSS, and **JavaScript*, and is designed 
 
 1. Open index.html in a web browser.
 2. Click *Start* to begin the timer.
-3. Or use this link : https://24000722.github.io/Pomodoro-Timer/
+3. Or use this link : https://sedzani06.github.io/Pomodoro-Timer/
 4. You can also view it on the github page
 5. When needed, click *Reset* to restart the timer.
 6. The progress bar will visually show the time progression.
@@ -56,4 +56,4 @@ The application is built using *HTML, **CSS, and **JavaScript*, and is designed 
 
 ## Acknowledgments
 
-This project was created for academic purposes as part of the *COM2120:Digital Design Techniques* coursework.
+This project was created for academic purposes as part of the *COM2120 : Digital Design Techniques* coursework.
